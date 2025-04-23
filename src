@@ -1,0 +1,123 @@
+body {
+  background: #eaf6f6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  border-bottom: 1px solid #eaf6f6;
+  padding: 0 0 30px 0;
+}
+main {
+  padding: 30px 0;
+}
+footer {
+  border-top: 1px solid #eaf6f6;
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 13px;
+  color: #8971d0;
+}
+a {
+  color: #8971d0;
+}
+.weather-app {
+  background: #fcfefe;
+  max-width: 600px;
+  margin: 60px auto;
+  box-shadow: 10px 10px 20px rgba(90, 98, 98, 0.2);
+  padding: 60px;
+  border-radius: 16px;
+}
+.search-form-input {
+  background: #eaf6f6;
+  border: none;
+  padding: 16px;
+  border-radius: 6px;
+  width: 82%;
+  font-size: 16px;
+}
+
+.search-form-button {
+  background: #7dace4;
+  border: none;
+  padding: 16px 22px;
+  border-radius: 6px;
+  color: #fcfefe;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.weather-data {
+  display: flex;
+  justify-content: space-between;
+}
+.data-container {
+  margin: 20px 0 0;
+}
+.weather-city {
+  margin: 0;
+  color: #8971d0;
+  font-weight: bold;
+  line-height: 48px;
+  font-size: 40px;
+}
+
+.weather-details {
+  font-size: 18px;
+}
+
+.weather-details strong {
+  color: #7dace4;
+}
+.weather-temperature-container {
+  color: #8971d0;
+}
+.weather-temperature-container p {
+  margin: 0;
+}
+
+.temp-icon {
+  font-size: 40px;
+  position: relative;
+  margin-right: 10px;
+  top: 10px;
+}
+.temp-value {
+  font-size: 88px;
+  font-weight: bold;
+}
+.temp-unit {
+  position: relative;
+  font-size: 28px;
+  top: -38px;
+}
+.forecast-data {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0 30px;
+}
+
+.forecast-container {
+  text-align: center;
+  border: 1px solid #eaf6f6;
+  border-radius: 6px;
+  padding: 10px 20px;
+  box-shadow: 10px 10px 20px rgba(90, 98, 98, 0.2);
+}
+.forecast-date {
+  font-weight: bold;
+  color: #8971d0;
+  line-height: 1.5;
+  padding: 0 0 8px 0;
+}
+.forecast-icon {
+  width: 60px;
+  padding: 0 0 8px 0;
+}
+.forecast-temps {
+  display: flex;
+  justify-content: space-between;
+}
+
+.forecast-temp {
+  padding: 4px;
+}
